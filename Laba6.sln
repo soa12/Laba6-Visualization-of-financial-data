@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConversion", "DataConve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{D51935DE-6CF2-43A1-9535-85A2491A62F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConversionTest", "DataConversionTest\DataConversionTest.csproj", "{879AD1F8-91EF-4993-8874-CDA0873CC998}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D51935DE-6CF2-43A1-9535-85A2491A62F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51935DE-6CF2-43A1-9535-85A2491A62F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51935DE-6CF2-43A1-9535-85A2491A62F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
