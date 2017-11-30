@@ -13,9 +13,10 @@ namespace DataConversionTest
         [TestMethod]
         public void TestMethodToObject()
         {
-            string path = @"D:\Новая папка\Учеба\4 курс\Проектирование ИС и ИТ\Лаба 6\Laba6\EURRUB_171120_171120.csv";
+            //string path = @"D:\Новая папка\Учеба\4 курс\Проектирование ИС и ИТ\Лаба 6\Laba6\EURRUB_171120_171120.csv";
+            string path = @"D:\Новая папка\Учеба\4 курс\Проектирование ИС и ИТ\Лаба 6\Laba6\USDRUB_160101_171031.csv";
             string path1 = @"D:\Новая папка\Учеба\4 курс\Проектирование ИС и ИТ\Лаба 6\Laba6\EURRUB_171120_171120(1).csv";
-            ConversionFromCSV testClass = new ConversionFromCSV(path1);
+            ConversionFromCSV testClass = new ConversionFromCSV(path);
             List<CurrencyRate> forCheckList = testClass.ToObject();
             //CurrencyRate forCheckCurrencyRate = forCheckList.FirstOrDefault();
 

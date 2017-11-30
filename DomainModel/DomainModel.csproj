@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="CurrencyRate.cs" />
     <Compile Include="IConversion.cs" />
+    <Compile Include="IMovingAverageCalc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeRate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

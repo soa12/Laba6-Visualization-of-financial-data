@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConversionTest", "DataConversionTest\DataConversionTest.csproj", "{879AD1F8-91EF-4993-8874-CDA0873CC998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingAverageCalc", "MovingAverageCalculate\MovingAverageCalc.csproj", "{E866A0D6-0AB1-4058-BBB6-E46D3183561B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{879AD1F8-91EF-4993-8874-CDA0873CC998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E866A0D6-0AB1-4058-BBB6-E46D3183561B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E866A0D6-0AB1-4058-BBB6-E46D3183561B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E866A0D6-0AB1-4058-BBB6-E46D3183561B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E866A0D6-0AB1-4058-BBB6-E46D3183561B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

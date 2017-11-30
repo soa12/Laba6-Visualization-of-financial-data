@@ -9,6 +9,7 @@ namespace DomainModel
     public class CurrencyRate
     {
         //<TICKER>,<PER>,<DATE>,<TIME>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOL>
+        //<TICKER>,<PER>,<DATE>,<TIME>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOL>
         //EURRUB,60,20171120,010000,69.4562000,69.6904000,69.4456000,69.6839000,59
         public string Ticker { get; set; }
 
@@ -16,6 +17,7 @@ namespace DomainModel
 
         public DateTime Date { get; set; }
 
+        
         public DateTime Time { get; set; }
 
         public double Open { get; set; }

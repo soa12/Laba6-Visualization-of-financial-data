@@ -14,7 +14,8 @@ namespace DataConversion
         private string path;
         private List<CurrencyRate> currencyRatesList;
 
-        private double temp = 1.111;
+        //private double temp = 1.111;
+
         public ConversionFromCSV(string path)
         {
             this.path = path;
