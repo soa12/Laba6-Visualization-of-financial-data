@@ -48,7 +48,21 @@ namespace WinFormUI
                 }
             };
 
-            
+            MessageBox.Show("Выберите CSV-файл с данными");
+            OpenFileDialog fileDialog = new OpenFileDialog(); //создание диалогового окна для выбора файла
+            fileDialog.Filter = "CSV file(*.csv)|*.csv|All files(*.*)|*.*"; //формат загружаемого файла
+            fileDialog.InitialDirectory = @"D:\Новая папка\Учеба\4 курс\Проектирование ИС и ИТ\Лаба 6\Laba6";
+            if (fileDialog.ShowDialog() == DialogResult.OK && fileDialog.FileName != null)
+            //если в окне была нжата кнопка "ОК"
+            {
+                string path = fileDialog.FileName;
+                var conversion = new ConversionFromCSV(path);
+                currencyList = conversion.ToObject();
+            }
+            else
+            {
+                MessageBox.Show("Выберите CSV-файл с данными");
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
